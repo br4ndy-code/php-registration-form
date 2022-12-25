@@ -1,10 +1,5 @@
 <?php
-    $fields = [
-        'username' => 'reguired, max:255',
-        'email' => 'required | email',
-        'password' => 'required | secure',
-        'password2' => 'required | same:password'
-    ];
+
     const DEFAULT_VALIDATION_ERRORS = [
         'required' => 'Please enter the %s',
         'email' => 'The %s is not a valid email address',
