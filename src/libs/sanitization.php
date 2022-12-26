@@ -1,8 +1,8 @@
 <?php
 const FILTERS = [
-    'string' => FILTER_SANITIZE_STRING,
+    'string' => FILTER_SANITIZE_FULL_SPECIAL_CHARS,
     'string[]' => [
-        'filter' => FILTER_SANITIZE_STRING,
+        'filter' => FILTER_SANITIZE_FULL_SPECIAL_CHARS,
         'flags' => FILTER_REQUIRE_ARRAY
     ],
     'email' => FILTER_SANITIZE_EMAIL,
