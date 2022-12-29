@@ -1,9 +1,9 @@
 <?php
     /*
-    In the future, we may want to include the header.php and footer.php files in other files, e.g., login.php. Therefore, the title of the page should not be fixed.
+    In the future, we may want to include the header.php and footer.php files in other files, e.g., login.php.
+    Therefore, the title of the page should not be fixed.
     To make a title tag dynamic was defined the view() function that loads the code from a PHP file and passes data to it
     */
-
     function view(string $filename, array $data = []):void{
         // create variables from associative array
         foreach ($data as $key => $value){

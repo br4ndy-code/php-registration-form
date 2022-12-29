@@ -13,7 +13,7 @@
                class="<?= error_class($errors, 'username') ?>">
         <small><?= $errors['username'] ?? '' ?></small>
     </div>
-
+    
     <div>
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" value="<?= $inputs['email'] ?? '' ?>"
