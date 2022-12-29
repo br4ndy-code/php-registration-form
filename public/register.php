@@ -27,6 +27,9 @@
         color: red;
         margin-bottom: 1rem;
     }
+    a{
+        text-decoration: none;
+    }
 </style>
 <div class="container">
     <div class="row main">
@@ -71,9 +74,9 @@
                 <small><?= $errors['agree'] ?? '' ?></small>
             </div>
 
-            <button type="submit" class="btn btn-outline-primary">Register</button>
+            <button type="submit" class="btn btn-outline-primary mt-3">Register</button>
 
-            <footer>Already a member? <a href="login.php">Login here</a></footer>
+            <footer class="mt-2">Already a member? <a href="login.php">Login here</a></footer>
 
         </form>
         </div>
