@@ -4,33 +4,7 @@
 ?>
 
 <?php view('header', ['title' => 'Registration'])?>
-<style>
-    .main{
-        height: 100vh;
-    }
-    form{
-        padding: 3rem;
-        border: 2px dashed #D3D3D3;
-        border-radius: 1.5rem;
-        text-align: center;
-    }
-    input{
-        display:block;
-        margin-top: 0.5rem;
-        margin: 0 auto;
-        border: 1px solid #D3D3D3;
-        border-radius: 0.5rem;
-    }
-    small{
-        display: block;
-        width: 300px;
-        color: red;
-        margin-bottom: 1rem;
-    }
-    a{
-        text-decoration: none;
-    }
-</style>
+
 <div class="container">
     <div class="row main">
         <div class="col-md-12 d-flex justify-content-center align-items-center">
